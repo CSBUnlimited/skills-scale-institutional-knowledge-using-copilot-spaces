@@ -68,6 +68,8 @@ Quality assurance is built into both execution and release practices. During del
 | [Release & Deployment](octoacme-release-and-deployment.md) | Release types, pre-release requirements, deployment checklist, rollback/incident playbook, and release notes template. |
 | [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective structure, action items with owners and dates, backlog integration, and team culture. |
 | [Roles & Personas](octoacme-roles-and-personas.md) | Detailed role summaries, responsibilities, goals, and typical communication patterns for each persona. |
+| [Release Readiness Checklist](octoacme-release-readiness-checklist.md) | Reusable release gates, required sign-offs, rollback template, communication plan, and post-deploy verification checklist. |
+| [Quality Gates and Test Strategy](octoacme-quality-gates-and-test-strategy.md) | Stage-based quality gates (In Review, QA, pre-release) with ownership and defect triage guidance. |
 
 ---
 
