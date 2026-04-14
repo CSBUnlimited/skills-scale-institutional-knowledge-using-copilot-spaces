@@ -19,6 +19,7 @@ Applies to all cross-functional projects that deliver product features, services
 - Developers: implement features, collaborate on design and testability.
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+- Extended delivery roles: Release Manager, QA Lead, UX Designer, and DevOps Engineer (see [Roles & Personas](octoacme-roles-and-personas.md)).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +45,4 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Use [Release Readiness Checklist](octoacme-release-readiness-checklist.md) and [Quality Gates and Test Strategy](octoacme-quality-gates-and-test-strategy.md) as reusable templates during execution and release.

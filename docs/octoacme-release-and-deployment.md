@@ -3,6 +3,8 @@
 ## Purpose
 Standardize how OctoAcme releases features to production to reduce risk and improve observability.
 
+Use the [Release Readiness Checklist](octoacme-release-readiness-checklist.md) to run go/no-go reviews and capture required role sign-offs.
+
 ## Release Types
 - Patch: hotfixes addressing critical production issues
 - Minor: incremental features and improvements
@@ -11,6 +13,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
+- QA Lead quality gate completed (see [Quality Gates and Test Strategy](octoacme-quality-gates-and-test-strategy.md))
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared

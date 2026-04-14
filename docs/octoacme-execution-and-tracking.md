@@ -10,6 +10,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+- Suggested ownership by column:
+  - **Backlog / Ready:** PdM accountable, PM supports timeline/dependency alignment
+  - **In Progress / In Review:** Developers responsible for implementation and review quality
+  - **QA:** QA Lead accountable for test execution strategy and quality gate outcomes
+  - **Done:** PM confirms completion tracking and stakeholder visibility
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
@@ -22,6 +27,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- Apply stage-based quality gates from [Quality Gates and Test Strategy](octoacme-quality-gates-and-test-strategy.md)
+- Use [Roles & Personas](octoacme-roles-and-personas.md) for accountability and hand-offs across PM/PdM/Developers/QA Lead/Release Manager/DevOps
 
 ## Reporting & Metrics
 - Track velocity and burndown
